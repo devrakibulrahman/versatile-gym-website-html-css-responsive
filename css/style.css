@@ -1,0 +1,126 @@
+/*? ===================== google font import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*? ===================== universal css resets */
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: var(--inter);
+}
+
+*::selection{
+    background-color: #ff6363;
+}
+
+/*? ===================== font import */
+@font-face {
+    font-family: "Miama";
+    src: url("../font/Miama.ttf");
+}
+
+/*? ===================== css variable define */
+:root{
+
+    /* ------------------ color declaration */
+    --mandarin-red: #E6533C;
+    --white: #ffffff;
+    --black: rgb(0, 0, 0);
+    --white-op-0-1: rgba(255, 255, 255, 0.1);
+    --white-op-0-5: rgba(255, 255, 255, 0.5);
+    --white-op-6-5: rgba(255, 255, 255, 0.65);
+    --black-out: #222222;
+    --plunge-pool: rgba(6, 255, 210, 0.5);
+    --red-op: rgba(255, 0, 0, 0.3);
+    --black-op: rgba(0, 0, 0, 0.5);
+    --black-gray: rgba(34, 34, 34);
+    --black-op-5-4: rgba(48, 48, 48, 0.54);
+    --light-green-op: rgba(66, 255, 0, 0.3);
+    --blue-op: rgba(0, 71, 255, 0.3);
+
+    /* ------------------ font family define */
+    --inter: "Inter", sans-serif;
+    --miama: "Miama";
+
+    /* ------------------ font size define */
+    --ft-13px: 0.8125rem;
+    --ft-14px: 0.876rem;
+    --ft-16px: 1rem;
+    --ft-18px: 1.125rem;
+    --ft-20px: 1.25rem;
+    --ft-23px: 1.4375rem;
+    --ft-24px: 1.5rem;
+    --ft-28px: 1.75rem;
+    --ft-32px: 2rem;
+    --ft-36px: 2.25rem;
+    --ft-40px: 2.5rem;
+    --ft-48px: 3rem;
+    --ft-70px: 4.375rem;
+    --ft-78px: 4.875rem;
+    --ft-160px: 10rem;
+
+    /* ------------------ font weight define */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+    --fw-900: 900;
+
+    /* ------------------ line height define */
+    --lh-1px: 1px;
+    --lh-17px: 17px;
+    --lh-18px: 18px;
+    --lh-20px: 20px;
+    --lh-22px: 22px;
+    --lh-24px: 24px;
+    --lh-40px: 40px;
+    --lh-pre-120: 120%;
+
+    /* ------------------ letter spacing define */
+    --ls-0-3px: 0.3px;
+    --ls-0-5px: 0.5px;
+    --ls-1px: 1px;
+
+    /* ------------------ border radius define */
+    --bor-ra-8px: 8px;
+    --bor-ra-12px: 12px;
+    --bor-ra-18px: 18px;
+    --bor-ra-39px: 39px;
+    --bor-ra-42px: 42px;
+    --bor-ra-46px: 46px;
+    --round: 50%;
+    
+    /* ------------------ border define */
+    --bor-1px-op: 1px solid rgba(255, 255, 255, 0.1);
+    --bor-2px-op: 2px solid rgba(255, 255, 255, 0.1);
+    --bor-3px-op: 3px solid rgba(255, 255, 255, 0.1);
+    --bor-1px-wt: 1px solid rgb(255, 255, 255);
+
+    /* ------------------ back-drop filter define */
+    --blur-20px: 20px;
+
+}
+
+/*? ===================== css reusable class */
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*? ===================== header  */
+
+/*? ===================== main  */
+
+/*? ===================== footer  */
