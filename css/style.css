@@ -117,6 +117,45 @@
     flex-direction: column;
 }
 
+.btn{
+    font-size: var(--ft-18px);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-22px);
+    color: var(--white);
+}
+
+
+.btn-primary{
+    width: 224px;
+    padding: 16px 40px;
+    border-radius: var(--bor-ra-42px);
+    border: 1px solid var(--mandarin-red);
+    background-color: var(--mandarin-red);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background: none;
+    color: var(--mandarin-red);
+}
+
+.btn-secondary{
+    width: 224px;
+    padding: 16px 40px;
+    border: 1px solid var(--white);
+    border-radius: var(--bor-ra-42px);
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+
 /*? ===================== header  */
 #header{
     width: 100%;
@@ -181,6 +220,146 @@
     font-size: var(--ft-28px);
     color: var(--white);
 }
+
+.home-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.home-content .home-details-bx .home-details{
+    width: 520px;
+}
+
+.home-content .home-details-bx .home-details .home-tx{
+    font-size: var(--ft-78px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-pre-120);
+    color: var(--white);
+    margin-bottom: 28px;
+}
+
+.home-content .home-details-bx .home-details .home-tx .cursive{
+    font-family: var(--miama);
+    font-size: var(--ft-160px);
+    font-weight: var(--fw-400);
+}
+
+.home-content .home-details-bx .home-details .home-para{
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-5px);
+    margin-bottom: 28px;
+    color: var(--white-op-0-5);
+}
+
+.home-content .home-details-bx .btn-bx{
+    display: flex;
+    gap: 14px;
+}
+
+.home-content .home-img-bx{
+    width: 480px;
+    height: 100%;
+    margin-top: 32px;
+    position: relative;
+}
+
+.home-content .home-img-bx .img-bx{
+    width: 100%;
+    height: 808px;
+    overflow: hidden;
+}
+
+.home-content .home-img-bx .img-bx .img{
+    width: 100%;
+    height: 100%;
+}
+
+.home-content .home-img-bx .card-bx-1{
+    width: 193px;
+    height: 98px;
+    background-color: var(--white-op-0-1);
+    border-radius: var(--bor-ra-12px);
+    border: var(--bor-1px-op);
+    backdrop-filter: var(--blur-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 26%;
+    right: -5%;
+}
+
+.home-content .home-img-bx .card-bx-1 .text-bx-1 .text-1{
+    font-size: var(--ft-40px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-40px);
+    letter-spacing: var(--ls-1px);
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.home-content .home-img-bx .card-bx-1 .text-bx-1 .para-1{
+    font-size: var(--ft-13px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-20px);
+    letter-spacing: var(--ls-1px);
+    color: var(--white-op-6-5);
+}
+
+.home-content .home-img-bx .card-bx-2{
+    width: 206px;
+    height: 96px;
+    background-color: var(--black-op-5-4);
+    border: var(--bor-1px-op);
+    border-radius: var(--bor-ra-12px);
+    backdrop-filter: var(--blur-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    position: absolute;
+    bottom: 11%;
+    left: -16%;
+}
+
+.home-content .home-img-bx .card-bx-2 .icon-bx{
+    width: 40px;
+    height: 40px;
+    background-color: var(--mandarin-red);
+    border-radius: var(--round);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content .home-img-bx .card-bx-2 .icon-bx .play-icon{
+    font-size: var(--ft-24px);
+    color: var(--white);
+}
+
+.home-content .home-img-bx .card-bx-2 .text-bx-2 .text-2{
+    font-size: var(--ft-24px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-3px);
+    margin-bottom: 8px;
+    color: var(--white);
+}
+
+.home-content .home-img-bx .card-bx-2 .text-bx-2 .para-2{
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-5px);
+    color: var(--white-op-6-5);
+}
+
+
 
 /*? ===================== main  */
 

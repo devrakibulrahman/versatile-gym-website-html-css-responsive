@@ -22,6 +22,9 @@
     --miama: "Miama";
 
     /* ------------------ font size define */
+    --ft-9px: 0.5625rem;
+    --ft-11px: 0.6875rem;
+    --ft-12px: 0.75rem;
     --ft-13px: 0.8125rem;
     --ft-14px: 0.876rem;
     --ft-16px: 1rem;
@@ -30,6 +33,7 @@
     --ft-23px: 1.4375rem;
     --ft-24px: 1.5rem;
     --ft-28px: 1.75rem;
+    --ft-30px: 1.875rem;
     --ft-32px: 2rem;
     --ft-36px: 2.25rem;
     --ft-40px: 2.5rem;
@@ -53,16 +57,21 @@
     --lh-20px: 20px;
     --lh-22px: 22px;
     --lh-24px: 24px;
+    --lh-30px: 30px;
     --lh-40px: 40px;
     --lh-pre-120: 120%;
 
     /* ------------------ letter spacing define */
     --ls-0-3px: 0.3px;
     --ls-0-5px: 0.5px;
+    --ls-0-23px: 0.23px;
+    --ls-0-38px: 0.38px;
+    --ls-0-75px: 0.75px;
     --ls-1px: 1px;
 
     /* ------------------ border radius define */
     --bor-ra-8px: 8px;
+    --bor-ra-9px: 9px;
     --bor-ra-12px: 12px;
     --bor-ra-18px: 18px;
     --bor-ra-39px: 39px;
@@ -89,6 +98,22 @@
         padding: 0 20px;
     }
 
+    .btn{
+        font-size: var(--ft-11px);
+    }
+
+    .btn-primary{
+        width: 169px;
+        height: 54px;
+        padding: 8px 20px;
+    }
+
+    .btn-secondary{
+        width: 169px;
+        height: 54px;
+        padding: 8px 20px;
+    }
+
     /* ===================== header */
     .header-content{
         padding-top: 52px;
@@ -101,6 +126,90 @@
     .header-content .mobile-menu{
         display: block;
     }
+
+    .home-content{
+        flex-direction: column;
+        margin-top: 51px;
+    }
+
+    .home-content .home-details-bx{
+        width: 100%;
+    }
+
+    .home-content .home-details-bx .home-details{
+        width: 100%;
+    }
+
+    .home-content .home-details-bx .home-details .home-tx{
+        font-size: var(--ft-36px);
+    }
+
+    .home-content .home-details-bx .home-details .home-tx .cursive{
+        font-size: var(--ft-78px);
+    }
+
+    .home-content .home-details-bx .home-details .btn-bx{
+        width: 100%;
+    }
+
+    .home-content .home-img-bx{
+        max-width: 353px;
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .home-content .home-img-bx .img-bx{
+        height: 480px;
+        overflow: hidden;
+    }
+    
+    .home-content .home-img-bx .img-bx .img{
+        height: 588px;
+    }
+
+    .home-content .home-img-bx .card-bx-1{
+        width: 143px;
+        height: 75px;
+        border-radius: var(--bor-ra-9px);
+        top: 10%;
+        right: -3%;
+    }
+
+    .home-content .home-img-bx .card-bx-1 .text-bx-1 .text-1{
+        font-size: var(--ft-30px);
+        line-height: var(--lh-30px);
+        letter-spacing: var(--ls-0-75px);
+    }
+
+    .home-content .home-img-bx .card-bx-1 .text-bx-1 .para-1{
+        font-size: var(--ft-9px);
+    }
+
+    .home-content .home-img-bx .card-bx-2{
+        width: 150px;
+        height: 72px;
+        border-radius: var(--bor-ra-9px);
+        bottom: 31%;
+        left: -4%;
+    }
+
+    .home-content .home-img-bx .card-bx-2 .icon-bx{
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-content .home-img-bx .card-bx-2 .text-bx-2 .text-2{
+        font-size: var(--ft-18px);
+        line-height: var(--lh-18px);
+        letter-spacing: var(--ls-0-23px);
+    }
+
+    .home-content .home-img-bx .card-bx-2 .text-bx-2 .para-2{
+        font-size: var(--ft-12px);
+        line-height: var(--lh-18px);
+        letter-spacing: var(--ls-0-38px);
+    }
+
 
     /* ===================== main */
 
@@ -118,6 +227,37 @@
 
     .header-content .navbar .nav-items .nav-list{
         font-size: var(--ft-14px);
+    }
+
+    .home-content{
+        margin-top: 75px;
+        flex-direction: column;
+    }
+
+    .home-content .home-details-bx{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .home-content .home-details-bx .home-details{
+        /* max-width: 520px; */
+        width: 100%;
+    }
+
+    .home-content .home-img-bx{
+        max-width: 434px;
+        width: 100%;
+        margin-top: 48px;
+    }
+    
+    .home-content .home-img-bx .card-bx-1{
+        top: 10%;
+        right: 0%;
+    }
+
+    .home-content .home-img-bx .card-bx-2{
+        bottom: 26%;
+        left: -3%;
     }
 
     /* ===================== main */
