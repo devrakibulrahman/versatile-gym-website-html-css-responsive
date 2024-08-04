@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /*? ===================== universal css resets */
-*,
-::after,
-::before{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -120,6 +118,69 @@
 }
 
 /*? ===================== header  */
+#header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgb(34, 34, 34), rgb(10, 10, 10));
+}
+
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+.header-content .logo{
+    font-size: var(--ft-36px);
+    font-weight: var(--fw-800);
+    font-style: italic;
+    color: var(--mandarin-red);
+    text-transform: capitalize;
+}
+
+.header-content .navbar .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    border: var(--bor-1px-op);
+    border-radius: var(--bor-ra-39px);
+    padding: 4px;
+}
+
+.header-content .navbar .nav-items .nav-list{
+    font-size: var(--ft-18px);
+    font-weight: var(--fw-600);
+    line-height: var(--lh-22px);
+    text-transform: capitalize;
+}
+
+.header-content .navbar .nav-items .nav-list .nav-link{
+    display: inline-block;
+    padding: 8px 20px;
+    color: var(--white);
+    border-radius: var(--bor-ra-46px);
+    transition: background-color 0.2s ease;
+}
+
+.header-content .navbar .nav-items .nav-list .nav-link.active{
+    background-color: var(--mandarin-red);
+}
+
+.header-content .navbar .nav-items .nav-list .nav-link:hover{
+    background-color: var(--mandarin-red);
+}
+
+.header-content .mobile-menu{
+    display: none;
+}
+
+.header-content .mobile-menu .mobile-icon{
+    font-size: var(--ft-28px);
+    color: var(--white);
+}
 
 /*? ===================== main  */
 
