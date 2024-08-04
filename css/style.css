@@ -155,11 +155,26 @@
     color: var(--black);
 }
 
+.section-text{
+    font-size: var(--ft-48px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-pre-120);
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.section-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-3px);
+    color: var(--white-op-0-5);
+}
 
 /*? ===================== header  */
 #header{
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgb(34, 34, 34), rgb(10, 10, 10));
 }
 
@@ -359,8 +374,76 @@
     color: var(--white-op-6-5);
 }
 
-
-
 /*? ===================== main  */
+#main{
+    width: 100%;
+    background-color: var(--black);
+}
+
+/* ====================== habit section */
+.habit-section{
+    width: 100%;
+    min-height: 50vh;
+}
+
+.section-heading-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-heading-content .section-bx{
+    width: 670px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.habit-card-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 58px;
+
+}
+
+.habit-card-container .card-bx{
+    width: 280px;
+    height: 274px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.habit-card-container .card-bx .img-bx{
+    border: var(--bor-2px-op);
+    border-radius: var(--round);
+    overflow: hidden;
+}
+
+.habit-card-container .card-bx .card-details-bx{
+    width: 231px;
+    text-align: center;
+}
+
+.habit-card-container .card-bx .card-details-bx .card-tx{
+    font-size: var(--ft-18px);
+    font-weight: var(--fw-600);
+    color: var(--white);
+    margin-bottom: 6px;
+}
+
+.habit-card-container .card-bx .card-details-bx .card-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-18px);
+    letter-spacing: var(--ls-0-3px);
+    color: var(--white-op-0-5);
+}
+/* ====================== habit section */
 
 /*? ===================== footer  */

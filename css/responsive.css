@@ -114,6 +114,10 @@
         padding: 8px 20px;
     }
 
+    .section-text{
+        font-size: var(--ft-32px);
+    }
+
     /* ===================== header */
     .header-content{
         padding-top: 52px;
@@ -210,8 +214,13 @@
         letter-spacing: var(--ls-0-38px);
     }
 
-
     /* ===================== main */
+
+    /* ===================== habit section */
+    .section-heading-content .section-bx{
+        margin-top: 20px;
+    }
+    /* ===================== habit section */
 
     /* ===================== footer */
 }
@@ -261,6 +270,17 @@
     }
 
     /* ===================== main */
+
+    /* ===================== habit section */
+    .section-heading-content .section-bx{
+        width: 474px;
+    }
+    
+    .habit-card-container .card-bx{
+        max-width: 280px;
+        width: 231px;
+    }
+    /* ===================== habit section */
 
     /* ===================== footer */
 } 
