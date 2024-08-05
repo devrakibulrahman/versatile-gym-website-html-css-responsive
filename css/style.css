@@ -100,9 +100,6 @@
     --bor-3px-op: 3px solid rgba(255, 255, 255, 0.1);
     --bor-1px-wt: 1px solid rgb(255, 255, 255);
 
-    /* ------------------ back-drop filter define */
-    --blur-20px: 20px;
-
 }
 
 /*? ===================== css reusable class */
@@ -300,7 +297,7 @@
     background-color: var(--white-op-0-1);
     border-radius: var(--bor-ra-12px);
     border: var(--bor-1px-op);
-    backdrop-filter: var(--blur-20px);
+    backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -332,7 +329,7 @@
     background-color: var(--black-op-5-4);
     border: var(--bor-1px-op);
     border-radius: var(--bor-ra-12px);
-    backdrop-filter: var(--blur-20px);
+    backdrop-filter: blur(20px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -501,5 +498,121 @@
 }
 
 /* ====================== run extra section */
+
+/*! ====================== body builder section (challenging extra part) */
+.bodybuilder-offer-section{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url("../assets/body-builder-offer-img/body-builder.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #2b2b2b;
+    background-blend-mode: overlay;
+}
+
+.bodybuilder-offer-content{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.bodybuilder-offer-content .section-bx{
+    max-width: 670px;
+    width: 100%;
+}
+
+.bodybuilder-offer-container{
+    width: 100%;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx{
+    max-width: 100%;
+    width: 500px;
+    min-height: 600px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: var(--bor-ra-18px);
+    border: var(--bor-1px-op);
+    padding: 40px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx{
+    margin-bottom: 30px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx{
+    margin-bottom: 15px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-text{
+    color: var(--white-op-0-5);
+    margin-bottom: 5px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-para{
+    color: var(--white-op-6-5);
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .check-icon{
+    font-size: var(--ft-20px);
+    color: var(--white-op-0-5);
+    background-color: #E6533C;
+    border-radius: var(--round);
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .rate-list-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-22px);
+    margin-left: 10px;
+    color: var(--white-op-0-5);
+    margin-bottom: 5px;
+}
+
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .btn-bx .btn-secondary{
+    width: 100%;
+    border-radius: var(--bor-ra-8px);
+    border: var(--bor-2px-op);
+    margin-top: 0px;
+}
+
+.bodybuilder-offer-container .bodybuilder-card-container{
+    max-width: 100%;
+    width: 600px;
+    min-height: 600px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(20px);
+    border-radius: var(--bor-ra-12px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+.bodybuilder-offer-container .bodybuilder-card-container .card-bx{
+    max-width: 100%;
+    height: 260px;
+    border-radius: var(--bor-ra-12px);
+    overflow: hidden;
+}
+
+.bodybuilder-offer-container .bodybuilder-card-container .card-bx .body-img{
+    width: 100%;
+    object-fit: contain;
+}
+/*! ====================== body builder section (challenging extra part) */
 
 /*? ===================== footer  */

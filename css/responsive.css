@@ -253,6 +253,24 @@
     }
     /* ===================== run extra section */
 
+    /*! ===================== bodybuilders section (challenging extra part) */
+    .bodybuilder-offer-section{
+        background-position: 65%;
+    }
+
+    .bodybuilder-offer-container{
+        max-width: 100%;
+        width: 500px;
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    /*! ===================== bodybuilders section (challenging extra part) */
+
     /* ===================== footer */
 }
 
@@ -333,6 +351,19 @@
         background-size: 1000px;
     }
     /* ===================== run extra section */
+
+    /*! ===================== bodybuilders section (challenging extra part) */
+    .bodybuilder-offer-section{
+        background-position: 65%;
+    }
+
+    .bodybuilder-offer-container{
+        max-width: 100%;
+        width: 500px;
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+    /*! ===================== bodybuilders section (challenging extra part) */
 
     /* ===================== footer */
 } 
