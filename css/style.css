@@ -174,7 +174,7 @@
 /*? ===================== header  */
 #header{
     width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgb(34, 34, 34), rgb(10, 10, 10));
 }
 
@@ -383,7 +383,7 @@
 /* ====================== habit section */
 .habit-section{
     width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
 }
 
 .section-heading-content{
@@ -445,5 +445,61 @@
     color: var(--white-op-0-5);
 }
 /* ====================== habit section */
+
+/* ====================== run extra section */
+.run-extra-section{
+    width: 100%;
+    min-height: 20vh;
+}
+
+.run-extra-content{
+    width: 100%;
+    background-color: var(--black-gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 100px;
+    padding: 30px;
+    border-radius: var(--bor-ra-18px);
+}
+
+.run-extra-content .run-extra-details-bx{
+    max-width: 443px;
+    width: 100%;
+    margin-left: 24px;
+}
+
+.run-extra-content .run-extra-details-bx .run-extra-tx{
+    font-size: var(--ft-48px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-pre-120);
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.run-extra-content .run-extra-details-bx .run-extra-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-3px);
+    color: var(--white-op-0-5);
+    margin-bottom: 34px;
+}
+
+.run-extra-content .run-extra-img{
+    max-width: 100%;
+    width: 366px;
+    height: 312px;
+    background-image: url("../assets/run-img/run.jpg");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position-x: 69%;
+    background-position-y: 30%;
+    border-radius: var(--bor-ra-18px);
+    overflow: hidden;
+}
+
+/* ====================== run extra section */
 
 /*? ===================== footer  */
