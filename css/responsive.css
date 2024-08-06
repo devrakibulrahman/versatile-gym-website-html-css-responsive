@@ -271,6 +271,56 @@
     
     /*! ===================== bodybuilders section (challenging extra part) */
 
+    /* ===================== training & exercises section */
+    .training-exercises-content .section-bx{
+        margin-top: 20px;
+    }
+
+    .training-exercises-card-container{
+        margin: 50px;
+    }
+
+    .training-exercises-card-container .card-content-bx{
+        min-height: 150px;
+    }
+
+    .training-exercises-card-container #bx-1{
+        grid-column: span 6;
+        background-position: 50% 50%;
+        background-size: 260px;
+    }
+
+    .training-exercises-card-container #bx-2{
+        background-position: 80% 35%;
+        background-size: 485px;
+    }
+
+    .training-exercises-card-container #bx-3{
+        display: none;
+    }
+
+    .training-exercises-card-container #bx-4{
+        grid-column: span 5;
+        background-position: 30% 0%;
+        background-size: 450px;
+    }
+
+    .training-exercises-card-container #bx-5{
+        grid-column: span 7;
+        background-position: 80% 50%;
+        background-size: 322px;
+    }
+
+    .training-exercises-card-container #bx-6{
+        display: none;
+    }
+
+    .training-exercises-card-container .overlay-tx-bx .para-4{
+        bottom: 25px;
+        left: 25px;
+    }
+    /* ===================== training & exercises section */
+
     /* ===================== footer */
 }
 
@@ -364,6 +414,23 @@
         gap: 35px;
     }
     /*! ===================== bodybuilders section (challenging extra part) */
+
+    /* ===================== training exercises section */
+    .training-exercises-card-container #bx-4{
+        background-position: 5% 50%;
+        background-size: 430px;
+    }
+
+    .training-exercises-card-container .overlay-tx-bx .para-4{
+        top: 158px;
+        left: 25px;
+    }
+
+    .training-exercises-card-container .overlay-tx-bx .para-6{
+        top: 159px;
+        color: var(--white);
+    }
+    /* ===================== training exercises section */
 
     /* ===================== footer */
 } 

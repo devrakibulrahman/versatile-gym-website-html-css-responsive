@@ -502,7 +502,7 @@
 /*! ====================== body builder section (challenging extra part) */
 .bodybuilder-offer-section{
     width: 100%;
-    min-height: 70vh;
+    min-height: 20vh;
     background-image: url("../assets/body-builder-offer-img/body-builder.jpg");
     background-repeat: no-repeat;
     background-position: top;
@@ -614,5 +614,161 @@
     object-fit: contain;
 }
 /*! ====================== body builder section (challenging extra part) */
+
+/* ====================== training-exercises section*/
+.training-exercises-section{
+    width: 100%;
+    min-height: 50vh;
+}
+
+.training-exercises-content{
+    width: 100%;
+}
+
+.training-exercises-content .section-bx{
+    max-width: 670px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.training-exercises-card-container{
+    width: 100%;
+    margin: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.training-exercises-card-container .card-content-bx{
+    min-height: 200px;
+}
+
+.training-exercises-card-container #bx-1{
+    grid-column: span 3;
+    background-image: url("../assets/training-img/training-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container #bx-2{
+    grid-column: span 6;
+    background-image: url("../assets/training-img/training-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container #bx-3{
+    grid-column: span 3;
+    background-image: url("../assets/training-img/training-3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container #bx-4{
+    grid-column: span 4;
+    background-image: url("../assets/training-img/training-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container #bx-5{
+    grid-column: span 4;
+    background-image: url("../assets/training-img/training-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container #bx-6{
+    grid-column: span 4;
+    background-image: url("../assets/training-img/training-6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.training-exercises-card-container .bx-1{
+    height: 100%;
+    background-color: var(--plunge-pool);
+}
+
+.training-exercises-card-container .bx-2{
+    height: 100%;
+    background-color: var(--red-op);
+}
+
+.training-exercises-card-container .bx-3{
+    height: 100%;
+    background-color: var(--black-op);
+}
+
+.training-exercises-card-container .bx-4{
+    height: 100%;
+    background-color: var(--black-op);
+}
+
+.training-exercises-card-container .bx-5{
+    height: 100%;
+    background-color: var(--light-green-op);
+}
+
+.training-exercises-card-container .bx-6{
+    height: 100%;
+    background-color: var(--blue-op);
+}
+
+.training-exercises-card-container .overlay-tx-bx{
+    position: relative;
+}
+
+.training-exercises-card-container .overlay-tx-bx .overlay-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-500);
+    line-height: var(--lh-17px);
+    color: var(--white);
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-1{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    color: var(--black);
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-3{
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-4{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-5{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+.training-exercises-card-container .overlay-tx-bx .para-6{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: var(--black);
+}
+/* ====================== training-exercises section*/
 
 /*? ===================== footer  */
