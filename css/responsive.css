@@ -332,12 +332,12 @@
 
     .bmi-calc-container{
         margin-top: 0px;
-        padding: 25px 0;
+        padding: 40px 0;
     }
     
     .bmi-calc-container .bmi-calc-content-bx .bmi-table-bx{
         width: 100%;
-        height: 300px;
+        height: 280px;
         margin-bottom: 42px;
     }
 
@@ -354,6 +354,20 @@
         font-size: var(--ft-16px);
     }
     /* ===================== bmi calculator section */
+
+    /* ===================== meet our team section */
+    .meet-our-team-content .section-bx{
+        width: 670px;
+        text-align: center;
+        margin-top: 65px;
+    }
+
+    .meet-our-team-trainer-container{
+        grid-template-columns: 1fr;
+        margin: 35px 0 65px 0;
+    }
+
+    /* ===================== meet our team section */
 
     /* ===================== footer */
 }
@@ -483,6 +497,17 @@
         max-width: 100%;
     }
     /* ===================== bmi calculator section */
+
+    /* ===================== meet our team section */
+    .meet-our-team-content .section-bx{
+        margin-top: 72px;
+    }
+
+    .meet-our-team-trainer-container{
+        margin: 54px 0 76px 0;
+    }
+
+    /* ===================== meet our team section */
 
     /* ===================== footer */
 } 

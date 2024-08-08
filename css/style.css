@@ -392,7 +392,8 @@
 }
 
 .section-heading-content .section-bx{
-    width: 670px;
+    max-width: 670px;
+    width: 100%;
     text-align: center;
     margin-top: 100px;
 }
@@ -991,10 +992,118 @@
 .bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3 .select-icon-bx-2 .select-down-icon-2{
     font-size: var(--ft-24px);
 }
-
-
-
-
 /* ====================== bmi section*/
+
+/* ====================== meet our team section*/
+.meet-our-team-section{
+    width: 100%;
+    min-height: 20vh;
+}
+
+.meet-our-team-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet-our-team-content .section-bx{
+    max-width: 670px;
+    width: 100%;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.meet-our-team-trainer-container{
+    width: 100%;
+    min-height: 564px;
+    background-color: var(--white-op-0-1);
+    border-radius: var(--bor-ra-18px);
+    padding: 20px;
+    margin: 58px 0 88px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.meet-our-team-trainer-container .trainer-bx{
+    width: 100%;
+    height: 300px;
+    border-radius: var(--bor-ra-18px);
+    background-color: #ff6363;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.meet-our-team-trainer-container .img-bx-1{
+    background-image: url("../assets/team-img/team-1.png");
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .img-bx-2{
+    background-image: url("../assets/team-img/team-2.png");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .img-bx-3{
+    background-image: url("../assets/team-img/team-3.png");
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .img-bx-4{
+    background-image: url("../assets/team-img/team-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .img-bx-5{
+    background-image: url("../assets/team-img/team-5.png");
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .img-bx-6{
+    background-image: url("../assets/team-img/team-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.meet-our-team-trainer-container .trainer-bx .overlay-bx{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.315);
+    position: relative;
+}
+
+.meet-our-team-trainer-container .trainer-bx .overlay-bx .overlay-tx-bx{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.meet-our-team-trainer-container .trainer-bx .overlay-tx-bx .trainer-name{
+    font-size: var(--ft-23px);
+    font-weight: var(--fw-800);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-3px);
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.meet-our-team-trainer-container .trainer-bx .overlay-tx-bx .trainer-para-tx{
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    color: var(--white-op-0-5);
+}
+/* ====================== meet our team section*/
 
 /*? ===================== footer  */
