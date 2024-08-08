@@ -31,6 +31,7 @@
     --black: rgb(0, 0, 0);
     --white-op-0-1: rgba(255, 255, 255, 0.1);
     --white-op-0-5: rgba(255, 255, 255, 0.5);
+    --white-op-0-6: rgba(255, 255, 255, 0.6);
     --white-op-6-5: rgba(255, 255, 255, 0.65);
     --black-out: #222222;
     --plunge-pool: rgba(6, 255, 210, 0.5);
@@ -618,7 +619,7 @@
 /* ====================== training-exercises section*/
 .training-exercises-section{
     width: 100%;
-    min-height: 50vh;
+    min-height: 20vh;
 }
 
 .training-exercises-content{
@@ -770,5 +771,230 @@
     color: var(--black);
 }
 /* ====================== training-exercises section*/
+
+/* ====================== bmi section*/
+.bmi-calc-section{
+    width: 100%;
+    min-height: 20vh;
+}
+
+.bmi-calc-content-bx{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bmi-calc-content .section-bx{
+    max-width: 670px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.bmi-calc-container{
+    width: 100%;
+    height: auto;
+    background-color: var(--black-gray);
+    margin-top: 80px;
+    padding: 50px 0;
+}
+
+.bmi-calc-container .bmi-calc-content-bx{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx{
+    max-width: 450px;
+    width: 100%;
+    height: 400px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx,
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-row,
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-head,
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-data{
+    border: var(--bor-1px-op);
+    border-collapse: collapse;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .bmi-table-tx{
+    font-size: var(--ft-28px);
+    font-weight: var(--fw-900);
+    line-height: var(--lh-pre-120);
+    color: var(--white);
+    margin-bottom: 50px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx{
+    max-width: 310px;
+    width: 100%;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx .table-row .table-head{
+    padding: 15px 18px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx .table-row .table-head .table-hd-tx{
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx .table-row .table-head .tx-1{
+    text-align: left;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx .table-row .table-dt-tx{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    color: var(--white-op-0-5);
+    padding: 13px 18px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .table-bx-content .table-bx .table-row .table-tx{
+    padding-left: 24px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx{
+    max-width: 577px;
+    width: 100%;
+    height: 400px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .bmi-calc-tx-bx{
+    width: 100%;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .bmi-calc-tx-bx .bmi-calc-tx{
+    font-size: var(--ft-28px);
+    font-weight: var(--fw-900);
+    color: var(--white);
+    margin-bottom: 14px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .bmi-calc-tx-bx .bmi-calc-para{
+    font-size: var(--ft-14px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-24px);
+    letter-spacing: var(--ls-0-3px);
+    color: var(--white-op-0-5);
+    margin-bottom: 34px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx{
+    width: 100%;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-1,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-1 .input-bx-1,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-1 .input-bx-2,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .input-bx-3{
+    width: 50%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: var(--bor-ra-8px);
+    background-color: var(--white-op-0-1);
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-22px);
+    color: var(--white-op-0-6);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-1 .input-bx-1::placeholder,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-1 .input-bx-2::placeholder,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .input-bx-3::placeholder{
+    color: var(--white-op-0-6);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2,
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3{
+    position: relative;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .select-bx-1{
+    width: 50%;
+    padding: 15px 20px;
+    appearance: none;
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-22px);
+    border: none;
+    border-radius: var(--bor-ra-8px);
+    outline: none;
+    background-color: var(--white-op-0-1);
+    color: var(--white-op-0-6);
+    cursor: pointer;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .select-bx-1 > .select-op{
+    color: var(--white-op-0-6);
+    background-color: var(--black-gray);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .select-icon-bx-1{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-op-0-6);
+    pointer-events: none;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-2 .select-icon-bx-1 .select-down-icon-1{
+    font-size: var(--ft-24px);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3 .select-bx-2{
+    width: 100%;
+    padding: 15px 20px;
+    appearance: none;
+    font-size: var(--ft-16px);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-22px);
+    border: none;
+    border-radius: var(--bor-ra-8px);
+    outline: none;
+    background-color: var(--white-op-0-1);
+    color: var(--white-op-0-6);
+    cursor: pointer;
+    margin-bottom: 34px;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3 .select-bx-2 > .select-op{
+    color: var(--white-op-0-6);
+    background-color: var(--black-gray);
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3 .select-icon-bx-2{
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    transform: translateY(-50%);
+    color: var(--white-op-0-6);
+    pointer-events: none;
+}
+
+.bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .form-bx .input-bx-field-3 .select-icon-bx-2 .select-down-icon-2{
+    font-size: var(--ft-24px);
+}
+
+
+
+
+/* ====================== bmi section*/
 
 /*? ===================== footer  */

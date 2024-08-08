@@ -237,10 +237,6 @@
         font-size: var(--ft-32px);
     }
 
-    .run-extra-content .run-extra-details-bx .btn-bx .btn{
-        font-size: var(--ft-18px);
-    }
-
     .run-extra-content .run-extra-details-bx .btn-bx .btn-primary{
         width: 100%;
     }
@@ -277,7 +273,7 @@
     }
 
     .training-exercises-card-container{
-        margin: 50px;
+        margin: 40px;
     }
 
     .training-exercises-card-container .card-content-bx{
@@ -320,6 +316,44 @@
         left: 25px;
     }
     /* ===================== training & exercises section */
+
+    /* ===================== bmi calculator section */
+    .bmi-calc-content-bx{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .bmi-calc-content .section-bx{
+        margin-top: 20px;
+        margin-bottom: 32px;    
+    }
+
+    .bmi-calc-container{
+        margin-top: 0px;
+        padding: 25px 0;
+    }
+    
+    .bmi-calc-container .bmi-calc-content-bx .bmi-table-bx{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 42px;
+    }
+
+    .bmi-calc-container .bmi-calc-content-bx .bmi-table-bx .bmi-table-tx{
+        font-size: var(--ft-16px);
+        margin-bottom: 23px;
+    }
+    
+    .bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx{
+        max-width: 100%;
+    }
+
+    .bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx .bmi-calc-tx-bx .bmi-calc-tx{
+        font-size: var(--ft-16px);
+    }
+    /* ===================== bmi calculator section */
 
     /* ===================== footer */
 }
@@ -431,6 +465,24 @@
         color: var(--white);
     }
     /* ===================== training exercises section */
+
+    /* ===================== bmi calculator section */
+    .bmi-calc-content-bx{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .bmi-calc-container .bmi-calc-content-bx .bmi-table-bx{
+        width: 100%;
+        height: 380px;
+    }
+
+    .bmi-calc-container .bmi-calc-content-bx .bmi-calc-bx{
+        max-width: 100%;
+    }
+    /* ===================== bmi calculator section */
 
     /* ===================== footer */
 } 
