@@ -1139,8 +1139,8 @@
 }
 
 .footer .footer-content-container .footer-brand-content .footer-para{
-    font-size: var(--ft-23px);
-    font-weight: var(--fw-500);
+    font-size: var(--ft-36px);
+    font-weight: var(--fw-900);
     line-height: var(--lh-24px);
     letter-spacing: var(--ls-0-3px);
     color: var(--white-op-0-5);
