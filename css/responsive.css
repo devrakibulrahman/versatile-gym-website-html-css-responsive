@@ -145,11 +145,18 @@
     }
 
     .home-content .home-details-bx .home-details .home-tx{
+        max-width: 100%;
+        width: 285px;
         font-size: var(--ft-36px);
     }
 
     .home-content .home-details-bx .home-details .home-tx .cursive{
         font-size: var(--ft-78px);
+    }
+
+    .home-content .home-details-bx .home-details .home-para{
+        max-width: 100%;
+        width: 450px;
     }
 
     .home-content .home-details-bx .home-details .btn-bx{
@@ -262,7 +269,59 @@
     }
 
     .bodybuilder-offer-container .bodybuilder-card-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .bodybuilder-offer-container{
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx{
+        width: 100%;
+        min-height: 100px;
+        padding: 30px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx{
+        border: var(--bor-2px-op);
+        padding: 20px;
+        border-radius: var(--bor-ra-12px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-text-bx .rate-text{
+        font-size: var(--ft-16px);
+        line-height: var(--lh-24px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-text-bx .rate-para{
+        font-size: var(--ft-14px);
+        line-height: var(--lh-22px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx{
+        margin-top: 10px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx .check-icon{
+        font-size: var(--ft-14px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx .rate-list-para{
+        font-size: var(--ft-14px);
+        line-height: var(--lh-20px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-card-container .card-bx{
+        width: 100%;
     }
     
     /*! ===================== bodybuilders section (challenging extra part) */
@@ -409,6 +468,16 @@
         width: 100%;
     }
 
+    .home-content .home-details-bx .home-details .home-tx{
+        max-width: 100%;
+        width: 600px;
+    }
+
+    .home-content .home-details-bx .home-details .home-para{
+        max-width: 100%;
+        width: 600px;
+    }
+
     .home-content .home-img-bx{
         max-width: 434px;
         width: 100%;
@@ -467,9 +536,57 @@
 
     .bodybuilder-offer-container{
         max-width: 100%;
-        width: 500px;
+        width: 100%;
         flex-direction: column-reverse;
         gap: 35px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx{
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx{
+        border: var(--bor-2px-op);
+        padding: 20px;
+        border-radius: var(--bor-ra-12px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-text{
+        font-size: var(--ft-18px);
+        line-height: var(--lh-24px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-para{
+        font-size: var(--ft-14px);
+        line-height: var(--lh-22px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx{
+        margin-top: 10px;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .check-icon{
+        font-size: var(--ft-16px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .rate-list-para{
+        font-size: var(--ft-16px);
+        line-height: var(--lh-20px);
+    }
+
+    .bodybuilder-offer-container .bodybuilder-card-container{
+        width: 100%;
+    }
+
+    .bodybuilder-offer-container .bodybuilder-card-container .card-bx{
+        width: 100%;
     }
     /*! ===================== bodybuilders section (challenging extra part) */
 

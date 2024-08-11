@@ -260,6 +260,7 @@
 }
 
 .home-content .home-details-bx .home-details .home-para{
+    max-width: 100%;
     font-size: var(--ft-16px);
     font-weight: var(--fw-400);
     line-height: var(--lh-24px);
@@ -533,46 +534,49 @@
 
 .bodybuilder-offer-container .bodybuilder-offer-rate-bx{
     max-width: 100%;
-    width: 500px;
-    min-height: 600px;
+    width: 520px;
+    min-height: 622px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
     border-radius: var(--bor-ra-18px);
     border: var(--bor-1px-op);
-    padding: 40px;
+    padding: 25px;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx{
-    margin-bottom: 30px;
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx{
+    border: var(--bor-2px-op);
+    padding: 15px;
+    border-radius: var(--bor-ra-8px);
+    margin-bottom: 20px;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-text-bx{
     margin-bottom: 15px;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-text{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-text-bx .rate-text{
     color: var(--white-op-0-5);
     margin-bottom: 5px;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-text-bx .rate-para{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-text-bx .rate-para{
     color: var(--white-op-6-5);
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx{
     width: 100%;
     display: flex;
     align-items: center;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .check-icon{
-    font-size: var(--ft-20px);
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx .check-icon{
+    font-size: var(--ft-18px);
     color: var(--white-op-0-5);
     background-color: #E6533C;
     border-radius: var(--round);
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx .rate-list-bx .rate-tx-bx .rate-list-para{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .rate-bx-container .rate-bx .rate-list-bx .rate-tx-bx .rate-list-para{
     font-size: var(--ft-14px);
     font-weight: var(--fw-400);
     line-height: var(--lh-22px);
@@ -581,17 +585,16 @@
     margin-bottom: 5px;
 }
 
-.bodybuilder-offer-container .bodybuilder-offer-rate-bx .btn-bx .btn-secondary{
+.bodybuilder-offer-container .bodybuilder-offer-rate-bx .btn-bx .btn-primary{
     width: 100%;
     border-radius: var(--bor-ra-8px);
-    border: var(--bor-2px-op);
     margin-top: 0px;
 }
 
 .bodybuilder-offer-container .bodybuilder-card-container{
     max-width: 100%;
     width: 600px;
-    min-height: 600px;
+    min-height: 622px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
     backdrop-filter: blur(20px);
     border-radius: var(--bor-ra-12px);
@@ -605,7 +608,7 @@
 
 .bodybuilder-offer-container .bodybuilder-card-container .card-bx{
     max-width: 100%;
-    height: 260px;
+    height: 272px;
     border-radius: var(--bor-ra-12px);
     overflow: hidden;
 }
