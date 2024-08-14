@@ -385,7 +385,7 @@
     }
 
     .bmi-calc-content .section-bx{
-        margin-top: 20px;
+        margin-top: 0px;
         margin-bottom: 32px;    
     }
 
@@ -608,6 +608,10 @@
     /* ===================== training exercises section */
 
     /* ===================== bmi calculator section */
+    .bmi-calc-content{
+        width: 100%;
+    }
+
     .bmi-calc-content-bx{
         width: 100%;
         flex-direction: column;
